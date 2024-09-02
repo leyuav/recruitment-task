@@ -4,7 +4,9 @@ import { navLinks } from '../constants';
 
 const Navbar = () => {
   return (
-    <nav className='w-full font-robotoFlex font-normal flex justify-between items-center'>
+    <nav
+      className={`${styles.paddingX} ${styles.paddingY} w-full font-robotoFlex font-normal flex justify-between items-center`}
+    >
       <div className='w-[300px] flex justify-start items-center'>
         <a href='#'>
           <img
@@ -27,6 +29,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
       <div className='w-[300px] flex justify-end items-center'>
         <button className={`${styles.button} w-[158px] h-[47px]`}>Zadzwoń do nas</button>
       </div>
