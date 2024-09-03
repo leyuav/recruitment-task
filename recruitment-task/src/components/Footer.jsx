@@ -2,11 +2,13 @@ import styles from '../style';
 import { footerLinks } from '../constants';
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} bg-secondary text-primary`}>
-    <div className='flex flex-row justify-between items-center py-[24px] sm:px-[120px] px-[80px] w-full'>
-      <p className={`${styles.paragraph} leading-[24px] max-w-[310px]`}>Cars Spot</p>
+  <section className='bg-secondary text-primary'>
+    <div className='flex justify-between items-center py-[24px] sm:px-[120px] px-[80px] w-full'>
+      <a href='#'>
+        <p className={`${styles.paragraph} max-w-[310px]`}>Cars Spot</p>
+      </a>
 
-      <div className='underline underline-offset-4 leading-[24px]'>
+      <div className='underline underline-offset-4'>
         <ul>
           {footerLinks.map((link, index) => (
             <li key={index}>
