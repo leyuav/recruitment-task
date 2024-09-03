@@ -3,7 +3,9 @@ import { FaArrowDown } from 'react-icons/fa6';
 
 const SEO = () => (
   <section className='flex md:flex-row flex-col bg-secondary'>
-    <div className={`${styles.flexCenter} py-[88px] px-[120px] w-[100%] gap-[48px]`}>
+    <div
+      className={`${styles.flexCenter} sm:py-[88px] py-[58px] sm:px-[120px] px-[60px] w-[100%] md:flex-row flex-col gap-[48px]`}
+    >
       <div className='max-w-[576px] flex flex-col items-start'>
         <h1
           className={`${styles.heading} mb-[16px] text-[25px] leading-[37.5px] tracking-[-0.03em] text-[#ffffff]`}
