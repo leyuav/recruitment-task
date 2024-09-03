@@ -1,4 +1,4 @@
-import { car01, car02, car03 } from '../assets';
+import { car01, car02, car03, car04, car05 } from '../assets';
 
 export const navLinks = [
   {
@@ -23,6 +23,14 @@ export const photoCarousel = [
   {
     id: 'photo-3',
     img: car03,
+  },
+  {
+    id: 'photo-4',
+    img: car04,
+  },
+  {
+    id: 'photo-5',
+    img: car05,
   },
 ];
 

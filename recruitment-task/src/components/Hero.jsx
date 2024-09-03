@@ -4,34 +4,43 @@ import { carHero, waves } from '../assets';
 const Hero = () => (
   <section
     id='home'
-    className='flex md:flex-row flex-col'
+    className='flex md:flex-row flex-col relative'
   >
-    <div className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col pt-[120px] pb-[362px]`}>
+    <div
+      className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col pt-[120px] pb-[362px] w-[80%]`}
+    >
       <h1 className={`${styles.heading} mb-[32px]`}>
         Sprzedajemy samochody <br /> z Europy
       </h1>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+
+      <p className={`${styles.paragraph} max-w-[470px] mb-[48px]`}>
         Kup komfortowy pojazd, aby każda podróż <br /> była wyjątkowym przeżyciem.
       </p>
-      <div className='w-[300px] flex justify-end items-center'>
-        <button className={`${styles.button} w-[158px] h-[47px]`}>Zobacz zdjęcia</button>
-        <button className={`${styles.button} w-[158px] h-[47px]`}>Zadzwoń do nas</button>
+
+      <div className='flex justify-end items-center'>
+        <button className={`${styles.button} w-[148px] h-[47px] mr-[24px] text-primary bg-accent`}>
+          Zobacz zdjęcia
+        </button>
+
+        <button
+          className={`${styles.button} w-[160px] h-[47px] bg-primary text-accent border-solid border-[1px] border-accent`}
+        >
+          Zadzwoń do nas
+        </button>
       </div>
     </div>
 
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+    <div className={`flex-1 flex flex-col ${styles.flexCenter} absolute bottom-[92.63px] right-0`}>
+      <img
+        src={waves}
+        alt='graphic design'
+        className='w-[668.05px] md:block hidden h-[659px] absolute top-[-500px] right-[71.95px] z-[4]'
+      />
+
       <img
         src={carHero}
         alt='cars'
-        className='w-[100%] h-[100%] relative z-[5] object-contain'
-      />
-    </div>
-
-    <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
-      <img
-        src={waves}
-        alt='discount'
-        className='w-[750px] md:block hidden h-[750px] absolute top-[-10%] right-[10%] z-9'
+        className='w-[1064px] h-[404.37] object-contain z-[5]'
       />
     </div>
   </section>

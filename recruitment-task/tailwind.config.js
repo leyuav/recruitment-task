@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+
+const withMT = require('@material-tailwind/react/utils/withMT');
+
+module.exports = withMT({
   content: ['./index.html', './src/**/*.{js,jsx}'],
   mode: 'jit',
   theme: {
@@ -7,7 +10,7 @@ module.exports = {
       colors: {
         primary: '#F7F7F7',
         secondary: '#282828',
-        btnBlue: '#0147FF',
+        accent: '#0147FF',
       },
       fontFamily: {
         robotoFlex: ['Roboto Flex', 'sans-serif'],
@@ -25,4 +28,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+});

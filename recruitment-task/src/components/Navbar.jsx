@@ -31,7 +31,9 @@ const Navbar = () => {
       </ul>
 
       <div className='w-[300px] flex justify-end items-center'>
-        <button className={`${styles.button} w-[158px] h-[47px]`}>Zadzwoń do nas</button>
+        <button className={`${styles.button} w-[158px] h-[47px]  text-primary bg-accent`}>
+          Zadzwoń do nas
+        </button>
       </div>
     </nav>
   );
