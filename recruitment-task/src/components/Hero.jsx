@@ -9,11 +9,13 @@ const Hero = () => (
     <div
       className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col pt-[120px] pb-[362px] w-[80%]`}
     >
-      <h1 className={`${styles.heading} mb-[32px]`}>
+      <h1
+        className={`${styles.heading} mb-[32px] text-[76.29px] leading-[83.92px] tracking-[-0.002em]`}
+      >
         Sprzedajemy samochody <br /> z Europy
       </h1>
 
-      <p className={`${styles.paragraph} max-w-[470px] mb-[48px]`}>
+      <p className={`${styles.paragraph} text-[16px] leading-6 max-w-[470px] mb-[48px]`}>
         Kup komfortowy pojazd, aby każda podróż <br /> była wyjątkowym przeżyciem.
       </p>
 
@@ -23,7 +25,7 @@ const Hero = () => (
         </button>
 
         <button
-          className={`${styles.button} w-[160px] h-[47px] bg-primary text-accent border-solid border-[1px] border-accent`}
+          className={`${styles.button} w-[160px] h-[47px] bg-primary text-accent border-solid border-[1px] border-accent z-[10]`}
         >
           Zadzwoń do nas
         </button>
@@ -34,7 +36,7 @@ const Hero = () => (
       <img
         src={waves}
         alt='graphic design'
-        className='w-[668.05px] md:block hidden h-[659px] absolute top-[-500px] right-[71.95px] z-[4]'
+        className='w-[668.05px] md:block hidden h-[659px] absolute top-[-500px] right-[-40px] z-[4]'
       />
 
       <img

@@ -7,7 +7,7 @@ const GalleryHeaders = () => (
         Prezentacja firmy
       </p>
 
-      <h1 className={`${styles.heading} mb-[24px] text-[40px] leading-[48px]`}>
+      <h1 className={`${styles.heading} mb-[24px] text-[40px] leading-[48px] tracking-[-0.002em]`}>
         Zobacz naszą galerię zdjęć
       </h1>
 

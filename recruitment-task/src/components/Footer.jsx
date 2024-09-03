@@ -4,7 +4,7 @@ import { footerLinks } from '../constants';
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className='flex-1 flex flex-col justify-start mr-10'>
+      {/* <div className='flex-1 flex flex-col justify-start mr-10'>
         <p className={`${styles.paragraph} max-w-[310px] mt-4`}>
           A new way to make the payments easy, reliable and secure.
         </p>
@@ -32,7 +32,7 @@ const Footer = () => (
             </ul>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   </section>
 );

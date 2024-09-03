@@ -47,13 +47,13 @@ export function PhotoGallery() {
           </div>
         ),
         autoplay: false,
-        autoplayDelay: 5000,
+        autoplayDelay: 4000,
         transition: {
           type: 'tween',
-          duration: 0.5,
+          duration: 0.75,
         },
-        loop: false,
-        className: 'gap-[64px]',
+        loop: true,
+        className: '',
       },
       styles: {
         base: {
@@ -61,12 +61,12 @@ export function PhotoGallery() {
             position: 'relative',
             width: 'w-full',
             height: 'h-full',
-            overflowX: 'scroll',
+            overflowX: 'overflow-x-clip',
             display: 'flex',
           },
 
           slide: {
-            width: 'w-[600px]',
+            width: 'w-full',
             height: 'h-full',
             display: 'inline-block',
             flex: 'flex-none',
@@ -135,7 +135,7 @@ export function PhotoGallery() {
                 <img
                   src={image.img}
                   alt={image.id}
-                  width={600}
+                  width={1264}
                   height={446}
                 />
               </div>

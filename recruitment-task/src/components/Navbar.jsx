@@ -5,7 +5,7 @@ import { navLinks } from '../constants';
 const Navbar = () => {
   return (
     <nav
-      className={`${styles.paddingX} ${styles.paddingY} w-full font-robotoFlex font-normal flex justify-between items-center`}
+      className={`${styles.paddingX} ${styles.paddingY} w-full  flex justify-between items-center`}
     >
       <div className='w-[300px] flex justify-start items-center'>
         <a href='#'>
@@ -21,7 +21,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`cursor-pointer text-[16px] ${
+            className={`font-robotoFlex font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-secondary hover:opacity-75`}
           >

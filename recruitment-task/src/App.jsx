@@ -30,14 +30,15 @@ const App = () => (
     <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <SEO />
+        <hr />
       </div>
     </div>
 
-    {/* <div className={`${styles.flexCenter}`}>
+    <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>
-    </div> */}
+    </div>
   </div>
 );
 
