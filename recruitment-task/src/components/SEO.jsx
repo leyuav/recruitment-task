@@ -21,6 +21,7 @@ const SEO = () => (
           Rozwiń <FaArrowDown />
         </button>
       </div>
+
       <div className='max-w-[576px] flex flex-col items-start'>
         <h1
           className={`${styles.heading} mb-[16px] text-[25px] leading-[37.5px] tracking-[-0.03em] text-[#ffffff]`}

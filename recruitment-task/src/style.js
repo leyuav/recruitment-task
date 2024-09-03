@@ -2,6 +2,7 @@ const styles = {
   boxWidth: 'xl:max-w-[1440px] w-full',
 
   heading: 'font-bebas font-normal text-left',
+
   paragraph: 'font-robotoCondensed font-normal text-left tracking-[-0.01em]',
 
   button:
@@ -16,8 +17,8 @@ const styles = {
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 
-  paddingX: 'sm:px-[120px] px-6',
-  paddingY: 'sm:py-[16px] py-6',
+  paddingX: 'sm:px-[120px] px-8',
+  paddingY: 'sm:py-[16px] py-8',
 };
 
 export const layout = {

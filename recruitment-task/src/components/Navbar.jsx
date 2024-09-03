@@ -21,7 +21,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-robotoFlex font-normal cursor-pointer text-[16px] ${
+            className={`font-robotoFlex font-normal sm:block hidden cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-secondary hover:opacity-75`}
           >
@@ -31,7 +31,7 @@ const Navbar = () => {
       </ul>
 
       <div className='w-[300px] flex justify-end items-center'>
-        <button className={`${styles.button} w-[158px] h-[47px]  text-primary bg-accent`}>
+        <button className={`${styles.button} w-auto h-[47px]  text-primary bg-accent`}>
           Zadzwoń do nas
         </button>
       </div>
