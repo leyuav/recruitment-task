@@ -79,9 +79,9 @@ export function PhotoGallery() {
     <ThemeProvider value={theme}>
       <section
         id='photoGallery'
-        className='flex md:flex-row flex-col md:mb-[152px] mb-[100px] '
+        className={`${styles.flexCenter} md:mb-[152px] mb-[100px]`}
       >
-        <div className={`${styles.flexStart} flex-col pt-[80px] sm:px-[88px] px-8 w-[100%]`}>
+        <div className='pt-[80px] sm:px-[88px] px-8 w-full'>
           <Carousel
             prevArrow={({ handlePrev }) => (
               <IconButton
@@ -137,7 +137,7 @@ export function PhotoGallery() {
                 <img
                   src={image.img}
                   alt={image.id}
-                  width={1264}
+                  width={1278}
                   height={446}
                 />
               </div>
