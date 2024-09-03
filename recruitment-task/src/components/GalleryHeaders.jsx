@@ -2,9 +2,7 @@ import styles from '../style';
 
 const GalleryHeaders = () => (
   <section className='flex md:flex-row flex-col'>
-    <div
-      className={`${styles.flexStart} flex-col sm:pt-[80px] pt-[60px] sm:px-[88px] px-8 w-[100%]`}
-    >
+    <div className={`${styles.flexStart} flex-col pt-[80px] sm:px-[88px] px-8 w-[100%]`}>
       <p
         className={`${styles.paragraph} md:text-[21.5px] text-[16px] leading-[32.25px] text-accent`}
       >

@@ -17,11 +17,11 @@ const Navbar = () => {
         </a>
       </div>
 
-      <ul className='list-none sm:flex justify-center items-center flex-1'>
+      <ul className='md:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-robotoFlex font-normal sm:block hidden cursor-pointer text-[16px] ${
+            className={`font-robotoFlex ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-secondary hover:opacity-75`}
           >
@@ -31,9 +31,7 @@ const Navbar = () => {
       </ul>
 
       <div className='w-[300px] flex justify-end items-center'>
-        <button className={`${styles.button} w-auto h-[47px]  text-primary bg-accent`}>
-          Zadzwoń do nas
-        </button>
+        <button className={`${styles.button} text-primary bg-accent`}>Zadzwoń do nas</button>
       </div>
     </nav>
   );

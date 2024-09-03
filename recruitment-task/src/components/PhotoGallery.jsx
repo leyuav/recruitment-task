@@ -77,7 +77,10 @@ export function PhotoGallery() {
 
   return (
     <ThemeProvider value={theme}>
-      <section className='flex md:flex-row flex-col md:mb-[152px] mb-[100px] '>
+      <section
+        id='photoGallery'
+        className='flex md:flex-row flex-col md:mb-[152px] mb-[100px] '
+      >
         <div className={`${styles.flexStart} flex-col pt-[80px] sm:px-[88px] px-8 w-[100%]`}>
           <Carousel
             prevArrow={({ handlePrev }) => (

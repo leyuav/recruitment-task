@@ -3,7 +3,7 @@ import { footerLinks } from '../constants';
 
 const Footer = () => (
   <section className={`${styles.flexCenter} bg-secondary text-primary`}>
-    <div className='flex flex-row justify-between items-center py-[24px] px-[120px] w-full'>
+    <div className='flex flex-row justify-between items-center py-[24px] sm:px-[120px] px-[80px] w-full'>
       <p className={`${styles.paragraph} leading-[24px] max-w-[310px]`}>Cars Spot</p>
 
       <div className='underline underline-offset-4 leading-[24px]'>

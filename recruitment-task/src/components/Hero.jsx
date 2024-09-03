@@ -2,10 +2,7 @@ import styles from '../style';
 import { carHero, waves } from '../assets';
 
 const Hero = () => (
-  <section
-    id='home'
-    className='flex md:flex-row flex-col relative'
-  >
+  <section className='flex md:flex-row flex-col relative'>
     <div
       className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col md:pt-[120px] pt-[80px] md:pb-[362px] pb-[132px] min-w-[80%]`}
     >

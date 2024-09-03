@@ -3,16 +3,16 @@ const styles = {
 
   heading: 'font-bebas font-normal text-left',
 
-  paragraph: 'font-robotoCondensed font-normal text-left tracking-[-0.01em]',
+  paragraph: 'font-robotoCondensed font-normal text-left tracking-[0.01em]',
 
   button:
-    'font-robotoFlex font-semibold text-center text-[15px] tracking-[-0.02em] py-3 px-6 leading-[22.5px] rounded-lg cursor-pointer hover:opacity-90',
+    'font-robotoFlex font-semibold text-center text-[15px] tracking-[-0.02em] py-3 px-6 rounded-lg hover:opacity-90',
 
   buttonCategory:
-    'font-robotoFlex font-normal text-center text-[15px] tracking-[-0.02em] leading-[22.5px] cursor-pointer hover:text-accent  hover:underline hover:underline-offset-4',
+    'font-robotoFlex font-normal text-center text-[15px] tracking-[-0.02em] leading-[22.5px] hover:text-accent  hover:underline hover:underline-offset-4',
 
   buttonDown:
-    'font-robotoCondensed font-normal text-center text-[14px] leading-[21px] text-[#ffffff] cursor-pointer border-b-[1px] pb-1 border-primary flex gap-2 items-center hover:scale-105 transition-all',
+    'font-robotoCondensed font-normal text-center text-[14px] leading-[21px] text-[#ffffff] border-b-[1px] pb-1 border-primary flex gap-[3px] items-center hover:scale-105 transition-all',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
