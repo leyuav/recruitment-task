@@ -53,7 +53,6 @@ export function PhotoGallery() {
           duration: 0.75,
         },
         loop: true,
-        className: '',
       },
       styles: {
         base: {

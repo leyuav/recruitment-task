@@ -17,7 +17,7 @@ const SEO = () => (
           Vestibulum et […]
         </p>
 
-        <button className={`${styles.buttonAcc}`}>
+        <button className={`${styles.buttonDown}`}>
           Rozwiń <FaArrowDown />
         </button>
       </div>
@@ -34,7 +34,7 @@ const SEO = () => (
           Vestibulum et […]
         </p>
 
-        <button className={`${styles.buttonAcc}`}>
+        <button className={`${styles.buttonDown}`}>
           Rozwiń <FaArrowDown />
         </button>
       </div>

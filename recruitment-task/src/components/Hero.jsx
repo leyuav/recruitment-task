@@ -25,7 +25,7 @@ const Hero = () => (
         </button>
 
         <button
-          className={`${styles.button} w-[160px] h-[47px] bg-primary text-accent border-solid border-[1px] border-accent z-[10]`}
+          className={`${styles.button} w-[160px] h-[47px] bg-primary text-accent border-solid border-[1px] border-accent z-[10] transition-all hover:scale-105`}
         >
           Zadzwoń do nas
         </button>
