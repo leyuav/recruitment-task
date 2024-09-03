@@ -2,9 +2,9 @@ import styles from '../style';
 import { carHero, waves } from '../assets';
 
 const Hero = () => (
-  <section className='flex md:flex-row flex-col relative'>
+  <section className='relative'>
     <div
-      className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col md:pt-[120px] pt-[80px] md:pb-[362px] pb-[132px] min-w-[80%]`}
+      className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col md:pt-[120px] pt-[80px] md:pb-[362px] pb-[132px]`}
     >
       <h1
         className={`${styles.heading} mb-[16px] md:text-[76.29px] text-[46.29px] md:leading-[83.92px] leading-[53.92px] tracking-[-0.002em]`}
@@ -19,14 +19,12 @@ const Hero = () => (
       </p>
 
       <div className='flex justify-end items-center'>
-        <button
-          className={`${styles.button} w-auto h-[47px] mr-[24px] text-primary bg-accent z-[10]`}
-        >
+        <button className={`${styles.button} mr-[24px] text-primary bg-accent z-[10]`}>
           Zobacz zdjęcia
         </button>
 
         <button
-          className={`${styles.button} w-auto h-[47px] bg-primary text-accent border-solid border-[1px] border-accent z-[10] transition-all hover:scale-105`}
+          className={`${styles.button} bg-primary text-accent border-solid border-[1px] border-accent z-[10] transition-all hover:scale-105`}
         >
           Zadzwoń do nas
         </button>
